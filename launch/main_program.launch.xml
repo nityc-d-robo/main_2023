@@ -14,6 +14,8 @@
         <param name="require_enable_button" value="false"/>
         <param name="enable_turbo_button" value="-1"/>
     </node>
+    <!-- topic_throttle -->
+    <node pkg="topic_throttle" exec="topic_throttle"/>
     <!-- mecanum control -->
     <node pkg="mecanum_control" exec="mecanum_control"/>
     

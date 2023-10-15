@@ -7,8 +7,8 @@
         <param name="axis_linear.y" value="0"/>
         <param name="axis_angular.yaw" value="3"/>
 
-        <param name="scale_linear.x" value="100.0"/>
-        <param name="scale_linear.y" value="100.0"/>
+        <param name="scale_linear.x" value="160.0"/>
+        <param name="scale_linear.y" value="160.0"/>
         <param name="scale_angular.yaw" value="5400.0"/>
 
         <param name="require_enable_button" value="false"/>
@@ -22,6 +22,9 @@
     <!-- mecanum_air_riser -->
     <node pkg="mecanum_air_riser" exec="mecanum_air_riser"/>
     
+	<!-- support_wheel_drive-->
+    <node pkg="support_wheel_drive" exec="support_wheel_drive"/>
+
     <!-- demeter-->
     <node pkg="demeter" exec="demeter"/>
     
